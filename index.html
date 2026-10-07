@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio website of Madhvan Sheladiya - CSE student and aspiring software developer.">
+  <title>Madhvan Sheladiya | Portfolio</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="80" tabindex="0">
+
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">Madhvan<span>.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+              aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-2">
+            <button id="themeToggle" class="btn btn-sm theme-btn" aria-label="Toggle dark mode">
+              <i class="bi bi-moon-stars-fill"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="home" class="hero-section">
+    <div class="hero-grid"></div>
+    <div class="container position-relative">
+      <div class="row align-items-center min-vh-100 py-5">
+        <div class="col-lg-7">
+          <span class="badge hero-badge mb-3">Computer Science & Engineering Student</span>
+          <p class="eyebrow mb-2">HELLO, I'M</p>
+          <h1 class="display-2 fw-800">Madhvan <span>Sheladiya</span></h1>
+          <p class="hero-text mt-4">
+            I build clean, responsive and user-focused web experiences while exploring
+            Python and modern software development.
+          </p>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="#projects" class="btn btn-primary btn-lg px-4">View My Work <i class="bi bi-arrow-right ms-1"></i></a>
+            <a href="#contact" class="btn btn-outline-light btn-lg px-4">Let's Connect</a>
+          </div>
+          <div class="quick-stats mt-5">
+            <div><strong>03</strong><span>Core Skills</span></div>
+            <div><strong>03+</strong><span>Mini Projects</span></div>
+            <div><strong>100%</strong><span>Curiosity</span></div>
+          </div>
+        </div>
+
+        <div class="col-lg-5 mt-5 mt-lg-0">
+          <div class="profile-card">
+            <div class="profile-orbit orbit-one"></div>
+            <div class="profile-orbit orbit-two"></div>
+            <div class="profile-avatar"><span>MS</span></div>
+            <div class="code-float code-one">&lt;/&gt;</div>
+            <div class="code-float code-two">{ }</div>
+            <div class="profile-info text-center">
+              <h3>Madhvan Sheladiya</h3>
+              <p class="mb-0">Developer • Learner • Creator</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="section-heading">
+        <span>01 / ABOUT</span>
+        <h2>A little about me</h2>
+      </div>
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-7">
+          <div class="glass-card h-100 p-4 p-lg-5">
+            <h3 class="mb-3">Turning ideas into <span class="accent-text">digital experiences.</span></h3>
+            <p class="text-muted-custom">
+              I am Madhvan Sheladiya, a Computer Science & Engineering student with an interest
+              in web development and programming. I enjoy learning by building practical projects
+              that combine clean design, useful functionality and responsive layouts.
+            </p>
+            <p class="text-muted-custom mb-0">
+              My current toolkit includes HTML, CSS and Python. I am continuously improving my
+              development skills and exploring better ways to solve problems through technology.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="info-panel h-100 p-4">
+            <div class="info-row"><i class="bi bi-mortarboard"></i><div><small>Focus</small><strong>Computer Science & Engineering</strong></div></div>
+            <div class="info-row"><i class="bi bi-code-slash"></i><div><small>Primary Interests</small><strong>Web Development & Programming</strong></div></div>
+            <div class="info-row"><i class="bi bi-geo-alt"></i><div><small>Location</small><strong>Gujarat, India</strong></div></div>
+            <div class="info-row"><i class="bi bi-envelope"></i><div><small>Email</small><strong>madhvansheladiya.24.cse@iite.indusuni.ac.in</strong></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section-padding section-alt">
+    <div class="container">
+      <div class="section-heading">
+        <span>02 / SKILLS</span>
+        <h2>What I work with</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="skill-card h-100">
+            <div class="skill-icon"><i class="bi bi-filetype-html"></i></div>
+            <h4>HTML</h4>
+            <p>Semantic, accessible page structure with modern HTML5 elements.</p>
+            <div class="progress"><div class="progress-bar" data-width="90"></div></div>
+            <small>Strong foundation</small>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-card h-100">
+            <div class="skill-icon"><i class="bi bi-filetype-css"></i></div>
+            <h4>CSS</h4>
+            <p>Responsive layouts, animations, visual hierarchy and polished UI styling.</p>
+            <div class="progress"><div class="progress-bar" data-width="85"></div></div>
+            <small>Strong foundation</small>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="skill-card h-100">
+            <div class="skill-icon"><i class="bi bi-filetype-py"></i></div>
+            <h4>Python</h4>
+            <p>Problem solving, data handling and building beginner-friendly applications.</p>
+            <div class="progress"><div class="progress-bar" data-width="80"></div></div>
+            <small>Growing proficiency</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section-padding">
+    <div class="container">
+      <div class="section-heading d-flex flex-wrap justify-content-between align-items-end gap-3">
+        <div><span>03 / PROJECTS</span><h2>Things I've built</h2></div>
+        <span class="project-count">Mini Project Portfolio</span>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <article class="project-card h-100">
+            <div class="project-number">01</div>
+            <div class="project-icon"><i class="bi bi-person-badge"></i></div>
+            <h4>Personal Portfolio</h4>
+            <p>A responsive portfolio website showcasing skills, projects and contact information.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span><span>JS</span></div>
+          </article>
+        </div>
+        <div class="col-lg-4">
+          <article class="project-card h-100">
+            <div class="project-number">02</div>
+            <div class="project-icon"><i class="bi bi-bar-chart-line"></i></div>
+            <h4>ML Workout Recommender</h4>
+            <p>A KNN-based mini project that recommends a workout plan from fitness goals, level and available time.</p>
+            <div class="tags"><span>Python</span><span>ML</span><span>KNN</span></div>
+          </article>
+        </div>
+        <div class="col-lg-4">
+          <article class="project-card h-100">
+            <div class="project-number">03</div>
+            <div class="project-icon"><i class="bi bi-bank"></i></div>
+            <h4>Loan Approval Prediction</h4>
+            <p>A Logistic Regression project predicting loan approval using income, age and credit score.</p>
+            <div class="tags"><span>Python</span><span>ML</span><span>Logistic Regression</span></div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-card">
+        <div>
+          <span class="eyebrow">HAVE AN IDEA?</span>
+          <h2>Let's build something useful.</h2>
+        </div>
+        <a href="mailto:madhvansheladiya.24.cse@iite.indusuni.ac.in" class="btn btn-light btn-lg">
+          Contact Me <i class="bi bi-arrow-up-right ms-1"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section-padding section-alt">
+    <div class="container">
+      <div class="section-heading">
+        <span>04 / CONTACT</span>
+        <h2>Let's connect</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-5">
+          <div class="contact-copy">
+            <h3>Have a question or opportunity?</h3>
+            <p class="text-muted-custom">Feel free to reach out. I’m always interested in learning, collaborating and working on interesting projects.</p>
+            <a class="contact-link" href="mailto:madhvansheladiya.24.cse@iite.indusuni.ac.in">
+              <i class="bi bi-envelope-fill"></i>
+              <span>madhvansheladiya.24.cse@iite.indusuni.ac.in</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6"><input class="form-control" id="name" type="text" placeholder="Your name" required></div>
+              <div class="col-md-6"><input class="form-control" id="email" type="email" placeholder="Your email" required></div>
+              <div class="col-12"><input class="form-control" id="subject" type="text" placeholder="Subject" required></div>
+              <div class="col-12"><textarea class="form-control" id="message" rows="5" placeholder="Your message" required></textarea></div>
+              <div class="col-12 d-flex align-items-center gap-3 flex-wrap">
+                <button class="btn btn-primary px-4" type="submit">Send Message <i class="bi bi-send ms-1"></i></button>
+                <span id="formStatus" class="form-status" role="status"></span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+      <p class="mb-0">© <span id="year"></span> Madhvan Sheladiya. Built with HTML, Bootstrap & JavaScript.</p>
+      <a href="#home" class="back-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
